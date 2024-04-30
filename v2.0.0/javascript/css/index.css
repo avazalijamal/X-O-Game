@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.selected{
+    background-color: pink !important;
+    border-radius: 15px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+.basliq{
+    width: 95%;
+    height: 50px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.basliq .sol{
+    width: calc((100% - 40px) / 2);
+    height: 50px;
+    /* background-color: red; */
+}
+.basliq .sol img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.basliq .sol div{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.basliq .sol div h2{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.basliq .sol div p{
+    line-height: 25px;
+}
+
+.l{
+    float: left;
+    text-align: left;
+}
+.r{
+    float: right;
+    text-align: right;
+}
+
+.basliq .orta{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 5px ;
+    border-radius: 50%;
+    border: 2px solid green;
+
+}
+.basliq .orta b{}
+
+.cedvel{
+    width: 330px;
+    height: 330px;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(../img/bg.png);
+}
+.cedvel div{
+    width: 108px;
+    height: 108px;
+    float: left;
+    text-align: center;
+    /* background-image: url(../img/o.png); */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 58px 58px ;
+}
+.cedvel div:hover{
+    cursor: pointer;
+    /* background-color: rgba(100, 148, 237, 0.747); */
+}
+.cedvel div img{
+    width: 58px;
+    height: 58px;
+    margin-top: 25px;
+
+}
+
+.bb{
+    border-bottom: 2px solid blue;
+}
+.br{
+    border-right: 2px solid blue;
+}

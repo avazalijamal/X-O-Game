@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: green;
+}
+
+.basliq{
+    width: 95%;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sol{
+    width: calc((100% - 40px) / 2 );
+    height: 50px;
+    background-color: brown;
+    float: left;
+}
+
+.sol img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+}
+.sol h3{
+    float: right;
+    width: calc(100% - 55px);
+    background-color: powderblue;
+    text-align: left;
+    line-height: 25px;
+}
+.sol p{
+    float: right;
+    width: calc(100% - 55px);
+    background-color: yellowgreen;
+    text-align: left;
+    line-height: 25px;
+}
+
+.merkez{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    float: left;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.merkez p{
+    text-align:center ;
+    line-height: 40px;
+}
+
+.saq{
+    width: calc((100% - 40px) / 2 );
+    height: 50px;
+    background-color: red;
+    float: right;
+}
+
+.saq h3{
+    float: left;
+    width: calc(100% - 55px);
+    background-color: powderblue;
+    text-align: right;
+    line-height: 25px;
+}
+.saq p{
+    float: left;
+    width: calc(100% - 55px);
+    background-color: yellowgreen;
+    text-align: right;
+    line-height: 25px;
+}
+.saq img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 50%;
+}
+
+.oyun{
+    width: 300px ;
+    height: 300px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.oyun input{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.x{
+    background-image: url(../img/X.png);
+}
+.o{
+    background-image: url(../img/O.png);
+}
